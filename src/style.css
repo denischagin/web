@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    width: 100vw;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.marketing-wrapper {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+
+.marketing__h1-header {
+    text-align: center;
+    max-width: 300px;
+    margin: 50px 0  ;
+    font-size: 30px;
+}
+
+.cards-marketing-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tool-card {
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    border-radius: 7px;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.396);
+}
+
+.tool-card img {
+    width: 90px;
+    margin-bottom: 15px;
+}
+
+.tool-card-header {
+    margin-bottom: 15px;
+}
